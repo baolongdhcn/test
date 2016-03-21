@@ -14,7 +14,7 @@
 
 <body>
 	<?php if(preg_match('/[A-Z]/', "a b")){
- echo "co chua";
+ echo "co chua tâ";
 	}
  else
 	 echo "khong";
