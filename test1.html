@@ -1,0 +1,92 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" /> 
+<link rel="stylesheet" type="text/css" href="frontend/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="frontend/css/style.css">
+<link rel="stylesheet" type="text/css" href="frontend/plugin/flexslider/flexslider.css">
+<script type="text/javascript" src="frontend/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="frontend/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="frontend/plugin/flexslider/jquery.flexslider.js"></script>
+
+<title>test</title>
+</head>
+
+<body>
+    <div class="col-sm-6 col-md-6 col-lg-6">
+                                        <div id="slider" class="flexslider">
+                                            <ul class="slides">
+                                                <li>
+                            <img class="responsive" src="images/envision.png" />
+                        </li>
+                        <li>
+                            <img class="responsive" src="images/0001-1.jpg" />
+                        </li>
+                        <li>
+                            <img class="responsive" src="images/0001-2.jpg" />
+                        </li>
+                        <li>
+                            <img class="responsive" src="images/0001-5.jpg" />
+                        </li>
+                        <li>
+                            <img class="responsive" src="images/0001-3.jpg" />
+                        </li>
+                                               
+                                            </ul>
+                                        </div>
+                                        <div id="carousel" class="flexslider">
+                                            <ul class="slides">
+                                                <li>
+                            <img class="responsive" src="images/envision.png" />
+                        </li>
+                        <li>
+                            <img class="responsive" src="images/0001-1_thumb.jpg" />
+                        </li>
+                        <li>
+                            <img class="responsive" src="images/0001-2_thumb.jpg" />
+                        </li>
+                        <li>
+                            <img class="responsive" src="images/0001-5_thumb.jpg" />
+                        </li>
+                        <li>
+                            <img class="responsive" src="images/0001-3_thumb.jpg" />
+                        </li>
+                                                
+                                            </ul>
+                                        </div>
+
+                                    </div>
+</body>
+<script>
+    $(window).load(function() {
+    // The slider being synced must be initialized first
+        $('#carousel').flexslider({
+            animation: "slide",
+            controlNav: false,
+            animationLoop: false,
+            slideshow: false,
+            itemWidth: 70,
+            itemMargin: 5,
+            maxItems: 5,
+            asNavFor: '#slider',
+            prevText: "",
+            nextText:""
+        });
+
+        $('#slider').flexslider({
+            controlNav: false,
+            animationLoop: false,
+            slideshow: false,
+            sync: "#carousel",
+            prevText: "",
+            nextText:"",
+            directionNav: false
+        });
+    });
+</script>
+</html>

@@ -1,0 +1,398 @@
+@media all and (max-width: 1300px){
+	#home-loan .over-layout{
+	    background-size: auto 100%;
+	}
+}
+/*máy tính bảng loại to, hiển thị chiều ngang*/
+@media all and (max-width: 1024px){
+	/**HEADER*/
+	#header {
+		font-size:85%;
+	}
+	#header .col-md-3.logo{
+		width: 25%;
+		float: left;
+	}
+	#header .col-md-9.bar-menu{
+		width:75%;
+		float: left;
+	}
+}
+@media all and (max-width: 992px){
+	#slider .carousel-caption{
+		right: 14%;
+	}
+	#tax .over-layout{
+	    background-size: auto 100%;
+	}
+}
+@media all and (max-width: 991px){
+	#slider .carousel-indicators {
+		width: 6%;
+	}
+	#financial .item-body .row.rt{
+		display: table-footer-group;
+	}
+	#financial .financial-ly-ico .col-md-2.financial-ly-ico-item{
+		float: left;
+		width: 50%;
+		margin-bottom:10px;
+	}
+	#tax .tax-ly-ico .col-md-2.tax-ly-ico-item{
+		float: left;
+		width: 50%;
+		margin-bottom:10px;
+	}
+	#home-loan .home-loan-ly-ico .home-loan-ly-ico-item{
+		float: left;
+		width: 50%;
+		margin-bottom:10px;
+	}
+}
+/*máy tính bảng, hiển thị chiều ngang*/
+@media all and (max-width: 800px){	
+	#about-us .over-layout{
+	    background-size: auto 100%;
+	}
+	
+}
+/*máy tính bảng loại to, hiển thị chiều dọc*/
+@media all and (max-width: 768px){
+	
+	#financial .over-layout{
+	    background-size: auto 100%;
+	}
+
+	#tax .col-md-1,
+	#tax .col-md-2,
+	#tax .col-md-3,
+	#tax .col-md-4,
+	#tax .col-md-5,
+	#tax .col-md-6,
+	#tax .col-md-7,
+	#tax .col-md-8,
+	#tax .col-md-9,
+	#tax .col-md-10,
+	#tax .col-md-11,
+	#tax .col-md-12,
+	#financial .col-md-1,
+	#financial .col-md-2,
+	#financial .col-md-3,
+	#financial .col-md-4,
+	#financial .col-md-5,
+	#financial .col-md-6,
+	#financial .col-md-7,
+	#financial .col-md-8,
+	#financial .col-md-9,
+	#financial .col-md-10,
+	#financial .col-md-11,
+	#financial .col-md-12,
+	#home-loan .col-md-1,
+	#home-loan .col-md-2,
+	#home-loan .col-md-3,
+	#home-loan .col-md-4,
+	#home-loan .col-md-5,
+	#home-loan .col-md-6,
+	#home-loan .col-md-7,
+	#home-loan .col-md-8,
+	#home-loan .col-md-9,
+	#home-loan .col-md-10,
+	#home-loan .col-md-11,
+	#home-loan .col-md-12{
+		padding-right: 15px !important;
+		padding-left: 15px !important;
+	}
+	
+}
+
+@media all and (max-width: 767px){
+	.menu-head #bs-example-navbar-collapse-1 li a.active{
+	background: #fff;
+	}
+	#lang {
+    
+    top: 44px;
+	}
+	.banner .nt{
+		font-size: 24px;
+	}
+	#slider .carousel-control.left, #slider .carousel-control.right{
+		width: 10%;
+		top:40%;
+	}
+	#slider .carousel-indicators {
+		width: 8%;
+	}
+	#slider .carousel-control.left{
+		left:4%;
+	}
+
+	#slider .carousel-control.right{
+		right:4%;
+	}
+	.item .item-header{
+		padding: 30px 0px 0px 0px;
+	}
+
+	#header{
+		width: auto;
+		position: relative;
+	}
+
+	#header .col-md-9.bar-menu {
+		width: 100%;
+	}
+
+	#header .col-md-9.bar-menu .bar{
+		margin-top: 40px;
+	}
+	.menu-head{
+		width: 100%;
+		top: 0px;
+		background-color: #005c9c;
+		position: fixed;
+		z-index: 999;
+		max-height: 40px;
+		/*box-shadow: 0px 0px 7px 0px;
+		-webkit-box-shadow: 0px 0px 7px 0px #ccc;*/
+	/*	 border-bottom: 1px solid #ccc;*/
+	}
+	.menu-head .navbar{
+		height: auto;
+	}
+	.navbar-toggle{
+		margin-top: 3px;
+		margin-bottom: 3px;
+	}
+
+	#menu{
+		margin:7.5px 0px;
+	}
+	.bar li{
+		border-right: none;
+		border-bottom: 1px solid #ccc;
+		margin-left: 0px !important
+	}
+	.menu-head #bs-example-navbar-collapse-1 li{
+		width: 100% !important;
+		text-align: left;
+	}
+
+	.bar .input-form, .bar .email, .bar .phone{
+		width: initial;
+		text-align: left;
+	}
+	.bar .input-form{
+		float: left;
+		width: 50% !important;
+		padding: 0px 5px;
+	}
+	.bar .input-form.username{
+		border-right:1px solid #ccc;;
+	}
+	/*HEAD*/
+	.menu-head #bs-example-navbar-collapse-1 ul{
+		padding-top: 18px;
+		display: block;
+		padding-right: 15px;
+  		padding-left: 15px;
+  		background-color: #005c9c;
+	}
+	.navbar-default .navbar-nav>li>a{
+		color: #000;
+	}
+	.bar .input-form, .bar .email, .bar .phone{
+		width: 100%;
+	}
+
+	.bar .email, .bar .phone, .header .col-md-3.logo{
+		display:none;
+	}
+	.header .menu-head .logo{
+		width: 100%;
+		float: left;
+		border: none;
+		display: table;
+		height: 40px;
+		position: absolute;
+		background-color: #005c9c;
+	}
+
+	.header .menu-head  .logo a{
+		line-height: 40px;
+	}
+
+	.header .menu-head .logo img{
+		max-height: 67px;
+		max-width: inherit;
+	}
+	.menu-head #bs-example-navbar-collapse-1 li a{
+		padding: 10px 0px 10px 0px;
+	}
+	
+.menu-head #bs-example-navbar-collapse-1 li.il-search {
+   
+    background: none;
+}
+
+	/**ITEM*/
+	.wr-item{
+		padding:0px;
+	}
+
+	/*SLIDER*/
+	#slider{
+		margin-top: 0px ;
+	}
+	#slider .fp-slides{
+		width:100%;
+	}
+	#slider .carousel-caption{
+		padding-bottom: 0px;
+		margin: 0px;
+	}
+	#slider .carousel-caption h2{
+		font-size: 200%;
+	}
+	#slider .carousel-caption span{
+		font-size: 90%;
+	}
+	#slider .carousel-caption a.btn{
+		margin-top: 10px;	
+		font-size: 83%;
+		padding: 5px 15px;
+	}
+	/**RATE*/
+	#rate{
+		/*padding: 0px 0px 20px 0px;*/
+	}
+	#rate h1{
+		font-size:200%;
+		line-height: 1.3
+	}
+	#rate .bt-over .btn-default{
+		margin-top:5px;
+		white-space: normal;
+	}
+	/**OUR SERVICE*/
+	#our-service .item-body .col-md-3{
+		margin-bottom: 50px;
+	}
+	#our-service .item-body .col-md-3.end{
+		margin-bottom: 0px;
+	}
+	/**OUR TEAM*/
+	#our-team{
+		font-size: 110%;
+	}
+	#our-team .item-body .col-md-3{
+		margin-bottom: 50px;
+	}
+	#our-team .item-body .col-md-3.end{
+		margin-bottom: 0px;
+	}
+	.item .item-body h4{
+		min-height: initial;
+	}
+	/*HOMELOAN*/
+	#home-loan{
+		background-size: auto 100%;
+	}
+
+	#tax .over-layout img, 
+	#about-us .over-layout img, 
+	#home-loan .over-layout img, 
+	#financial .over-layout img{
+		width: auto;
+	}
+	#sea .row{
+		margin: 0;
+	}
+	#air .row{
+		margin: 0;
+	}
+	#land .row{
+		margin: 0;
+	}
+	#clients .row{
+		margin: 0;
+	}
+	#maps .row{
+		margin: 0;
+	}
+	#object .row{
+		margin: 0;
+	}
+	#team .row{
+		margin: 0;
+	}
+}
+/*máy tính bảng, hiển thị chiều dọc*/
+@media all and (max-width: 600px){
+	#slider .carousel-indicators {
+		width: 10%;
+	}
+	#slider .carousel-caption h2{
+		font-size: 150%;
+		line-height: 30px;
+	}
+	#slider .carousel-caption span{
+		font-size: 76%;
+	}
+}
+/*điện thoại di động, hiển thị chiều ngang*/
+@media all and (max-width: 480px){
+	#slider .carousel-caption{
+		right: 18%;
+		padding-top: 0px;
+	}
+	#slider .carousel-caption h2{
+		line-height: 20px;
+	}
+	
+	#tax .over-layout img, 
+	#about-us .over-layout img, 
+	#home-loan .over-layout img, 
+	#financial .over-layout img{
+		width: auto;
+	}
+	#our-service .item-body .bd-text,
+	#our-team .item-body .bd-text{
+		padding-bottom: 50px;
+	}
+	#tax.item .item-body{
+		padding-bottom: inherit;
+	}
+	#home-loan.item .item-footer li{
+		width:50%;
+	}
+
+}
+/*điện thoại di động, hiển thị chiều dọc*/
+@media all and (max-width: 320px){
+}
+
+@media (min-width: 992px){
+	#home-loan .home-loan-ly-ico .home-loan-ly-ico-item-5,
+	#home-loan .home-loan-ly-ico .home-loan-ly-ico-item-4,
+	#home-loan .home-loan-ly-ico .home-loan-ly-ico-item-3,
+	#home-loan .home-loan-ly-ico .home-loan-ly-ico-item-2{
+		float:left;
+	}
+
+	#home-loan .home-loan-ly-ico .home-loan-ly-ico-item-5{
+	    width: 20%;
+	}
+
+	#home-loan .home-loan-ly-ico .home-loan-ly-ico-item-4{
+	    width: 25%;
+	}
+
+	#home-loan .home-loan-ly-ico .home-loan-ly-ico-item-3{
+	    width: 33.33%;
+	}
+
+	#home-loan .home-loan-ly-ico .home-loan-ly-ico-item-2{
+	    width: 50%;
+	}
+}

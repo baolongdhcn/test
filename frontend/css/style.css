@@ -1,0 +1,189 @@
+@font-face {
+    font-family: 'BebasNeue Regular';
+    src: url('../fonts/BebasNeue Regular.otf') format('opentype');   
+}
+@font-face {
+    font-family: 'BebasNeue Thin';
+    src: url('../fonts/BebasNeue Thin.otf') format('opentype');   
+}
+@font-face {
+    font-family: 'BebasNeue Bold';
+    src: url('../fonts/BebasNeue Bold.otf') format('opentype');   
+}
+@font-face {
+    font-family: 'BebasNeue Light';
+    src: url('../fonts/BebasNeue Light.otf') format('opentype');   
+}
+@font-face {
+    font-family: 'BebasNeue Book';
+    src: url('../fonts/BebasNeue Book.otf') format('opentype');   
+}
+body{
+	font-family: 'Segoe UI';
+	font-size: 14px;
+	color: #000000;
+}
+h1,h2,h3,h4,h5,h6{
+	font-family: 'BebasNeue Bold';
+}
+#subcribe .input-group-addon{
+	    padding: 6px 20px;
+	background: url(../../images/ic-mail.jpg)no-repeat 100% #10a0c6;
+}
+.float-left{
+	float: left;
+}
+.navbar-default{
+	border: none;
+}
+.menu{
+	height: 100px;
+}
+.navbar {
+	
+	color:#fff;
+	margin-bottom: 0;
+}
+.navbar-nav{
+	margin-top: 50px;
+}
+.navbar-brand{
+	display: inline-table;
+}
+.navbar-nav>.dropdown:hover > .dropdown-menu{
+	display: block;
+}
+.navbar-nav>li>.dropdown-menu{
+	display: none;
+	min-width: 330px;
+	background-color: #10a0c5;
+	padding: 15px 0;
+}
+.navbar-nav>li>.dropdown-menu{
+	display: none;
+	min-width: 330px;
+	background-color: #10a0c5;
+	padding: 15px 0;
+}
+.navbar .nav>li>.dropdown-menu:before{
+	display: inline-block;
+	content: '';
+    
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    border-bottom: 7px solid #fff;
+    border-bottom-color: #10a0c5;
+    position: absolute;
+    top: -7px;
+    left: 30px;
+}
+#navbar ul li{
+	list-style: none;
+	list-style-type: none;
+}
+#navbar ul li a{
+	color: #000000;
+	font-weight: bold;
+	font-family: 'BebasNeue Bold';
+	font-size: 24px;
+
+	
+}
+#navbar ul li ul{
+	padding-left: 20px;
+	
+}
+#navbar ul li ul li a:hover{
+	background-color: transparent;
+	
+}
+
+#navbar ul li ul li ul li a{
+	color: #fff;
+	font-weight: normal;
+	font-family: 'BebasNeue Regular';
+	font-size: 14pt;
+	
+}
+#about{
+	color: #fff;
+}
+#about .about-left{
+	background:#3498db;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+#about .about-right{
+	background: #2980b9;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.form-control{
+	background: #e8e8e8;
+	border-radius: 0;
+	border: 2px solid #aac9dc;
+	font-size: 16px;
+}
+#footer{
+	margin-top: 100px;
+	font-weight: bold;
+	border-top: #10a0c6 solid 10px;
+    padding-top: 15px;
+    padding-bottom: 30px;
+}
+#footer a{
+	list-style: none;
+	text-decoration: none;
+	color: #000000;
+	font-weight: bold;
+	padding-right: 15px;
+}
+#product .nav-tabs {
+    border-bottom: 5px solid #000 !important;
+}
+#product .nav-tabs a{
+	color: #fff;
+	font-family: 'BebasNeue Regular';
+	font-size: 20px;
+	background-color: #999999;
+}
+#product .nav-tabs>li.active>a, .nav-tabs>li.active>a:hover, .nav-tabs>li.active>a:focus{
+	background-color: #000000 !important;
+}
+#product .nav-tabs>li{
+	padding-right: 5px;
+}
+#product .nav>li>a:hover{
+	background-color: #000000 !important;
+}
+#product-detail .nav-tabs .active a{
+	    padding-top: 16px;
+    margin-top: -5px;
+}
+#product-detail .nav-tabs {
+    border:none !important;
+}
+.flex-direction-nav .flex-prev {
+    right: 0;
+    top: 20px;
+    background: url(../../images/icon-flexslider-prev.png) no-repeat center;
+    width: 15px;
+    height: 80px;
+    background-color: #ecf0f1;
+}
+.logo img{
+	width: 100%;
+}
+@media(max-width: 767px){
+	.menu{
+		height: auto;
+	}
+	.navbar-nav>li>.dropdown-menu {
+		display: block;
+		position: relative;
+		float: none;
+	}
+	.dropdown-menu>li{
+		float: none !important;
+	}
+}
